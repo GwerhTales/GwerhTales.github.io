@@ -1,0 +1,53 @@
+* {
+ font-family: Geneva, Verdana, Tahoma, sans-serif;
+
+}
+* {
+ box-sizing: border-box;
+     
+}
+html{
+    background-image: url("../img/the_bard.jpg")
+}
+ body{
+     width: 90%;
+     margin: 0 auto;
+ }
+ li {
+     list-style: none;
+     
+ }
+ li a{
+     text-decoration: none;
+     color: white;
+     
+ }
+ .clearfix::after{
+     display: block;
+     content:'';
+     clear: both;
+
+ }
+ header{
+     box-sizing: border-box;
+     padding: 20px;
+     border-radius: 5px;
+     color: white;
+     background-color: darkgreen;
+ }
+ header ul li{
+     display: inline-block;
+     float: left;
+     margin: 0 40px;
+     padding: 10px;
+     transition: .5s ease;
+     border-radius: 5px;
+ }
+ header ul li:hover{
+     background-color: green;
+ }
+
+
+ header h2{
+     float: left;
+ }
